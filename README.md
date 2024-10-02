@@ -15,12 +15,6 @@ This tool allows users to input the number of hours a student studies and receiv
 - Pandas & Numpy: For data manipulation and numerical operations.
 ## Project Structure
 
-Here’s how you can represent your project structure based on the files you mentioned in your README.md:
-
-markdown
-Copy code
-## Project Structure
-
 The following is the structure of the project:
 
 student_marks_prediction/ │ 
