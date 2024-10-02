@@ -45,30 +45,39 @@ Make sure you have the following installed:
 - pip (Python package installer)
 ### Steps
 1. Clone the repository
+```bash
 git clone https://github.com/Arup-Gharami/student_marks_prediction_linear_regression.git
-
-2. Navigate to the project directory:
-cd student-marks-prediction(your folder name)
+```
+3. Navigate to the project directory:
+```bash
+cd student-marks-prediction(your folder name instead of student-mark-prediction)
+```
 3. Create a virtual environment:
+```bash
 python -m venv venv
-
+```
 4. Activate the virtual environment:
+```bash
 venv\Scripts\activate
-
+```
 5. Install the required dependencies:
+```bash
 pip install -r requirements.txt
+```
 ## Model Training
  - open linear_reg.ipynb in jupyter notebook run all cells
  - its create student_mark_predictor.pkl file
 
 ## Running the Application
 1. Run the Flask web application using app.py:
+```bash
 python app1.py
-
+```
 2. Open your web browser and navigate to:
+```bash
 http://localhost:5000
-
-3. You will see a form where you can input the number of study hours. The application will return the predicted marks.
+```
+4. You will see a form where you can input the number of study hours. The application will return the predicted marks.
 
 ## Example
 - Input: 5 hours of study per day
